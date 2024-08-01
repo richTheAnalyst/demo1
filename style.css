@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    position: center;
+    padding: 10px;
+    justify-content: space-between;
+    background-color:whitesmoke ;
+    padding: 20px;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+}
+.list-items li{
+    list-style-type: none;
+}
+.list-items li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: green;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+}
+.list-items li a:hover{
+    color: greenyellow;
+}
+.logo{
+    color: red;
+}
